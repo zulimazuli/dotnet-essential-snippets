@@ -6,18 +6,14 @@
 
 This repository contains a collection of best practices, code snippets, and design patterns for .NET developers. The goal is to provide a comprehensive resource for developers who are looking to improve their skills and learn from the experiences of others. Whether you're starting a new .NET project or looking to improve an existing one, this repository has something for you.
 
-Each section of the repository will focus on a specific topic, such as exception handling, logging, integration with cloud service or database migration strategies. The examples and best practices provided in this repository are intended to be used as a reference for developers who are looking to improve their code quality, performance, and maintainability.
+This repository is organized into sections, each of which focuses on a specific topic. Each section contains a README file that provides an overview of the topic, along with code snippets and best practices. To get started, simply click on the link to the section that interests you.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
 - [Global Exception Handler](#global-exception-handler)
-- [Serilog Structured Logger with AWS Sink](Logging/SerilogStructuredLoggerWithAwsSink.md)
+- [Serilog Structured Logger with AWS Sink](#serilog-structured-logger-with-aws-sink)
+
 - [Contributing](#contributing)
-
-## How to Use This Repository
-
-This repository is organized into sections, each of which focuses on a specific topic. Each section contains a README file that provides an overview of the topic, along with code snippets and best practices. To get started, simply click on the link to the section that interests you.
 
 ## Topics
 
