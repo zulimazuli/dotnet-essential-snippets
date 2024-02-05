@@ -12,8 +12,8 @@ This repository is organized into sections, each of which focuses on a specific 
 
 - [Global Exception Handler](#global-exception-handler)
 - [Serilog Structured Logger with AWS Sink](#serilog-structured-logger-with-aws-sink)
-
 - [Contributing](#contributing)
+- [To be added](#to-be-added)
 
 ## Topics
 
@@ -65,5 +65,3 @@ We welcome contributions from the community! If you have a best practice, code s
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 The purpose of this license is to allow the use of the code snippets and best practices in this repository in any project, commercial or non-commercial, without any restrictions. The software is provided "as is", without warranty of any kind, express or implied.
-
-# dotnet-essential-snippets
