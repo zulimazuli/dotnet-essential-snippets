@@ -15,13 +15,25 @@ Each section of the repository will focus on a specific topic, such as exception
 - [Serilog Structured Logger with AWS Sink](Logging/SerilogStructuredLoggerWithAwsSink.md)
 - [Contributing](#contributing)
 
-## Getting Started
+## How to Use This Repository
 
-## Global Exception Handler
+This repository is organized into sections, each of which focuses on a specific topic. Each section contains a README file that provides an overview of the topic, along with code snippets and best practices. To get started, simply click on the link to the section that interests you.
+
+## Topics
+
+### Global Exception Handler
 
 The global exception handler is a mechanism to handle exceptions that are not caught by the application code. It is a good practice to have a global exception handler to handle uncaught exceptions and log them. This will help in identifying and fixing issues in the application.
 
-Go to snippet: [Global Exception Handler](ExceptionHandlers/GlobalExceptionHandler.md)
+Go to the snippet: [Global Exception Handler](ExceptionHandlers/GlobalExceptionHandler.md)
+
+### Serilog Structured Logger with AWS Sink
+
+Logging is an essential part of any application. It helps in identifying issues, monitoring performance, and tracking user behavior. Serilog is a popular logging library for .NET applications. It provides a structured logging approach, which makes it easier to analyze logs and extract useful information.
+
+This section provides an example of how to use Serilog with the AWS sink to log structured logs to AWS CloudWatch.
+
+Go to the snippet: [Serilog Structured Logger with AWS Sink](Logging/SerilogStructuredLoggerWithAwsSink.md)
 
 ## Contributing
 
@@ -57,4 +69,5 @@ We welcome contributions from the community! If you have a best practice, code s
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 The purpose of this license is to allow the use of the code snippets and best practices in this repository in any project, commercial or non-commercial, without any restrictions. The software is provided "as is", without warranty of any kind, express or implied.
+
 # dotnet-essential-snippets
