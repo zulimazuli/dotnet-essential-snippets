@@ -44,11 +44,11 @@ Go to the snippet: [MediatR Behaviours - Validation Behaviour with FluentValidat
 
 We welcome contributions from the community! If you have a best practice, code snippet, or design pattern that you'd like to share, please open a pull request. We only ask that you follow these guidelines:
 
+- **Template**: Use the provided template to structure your contribution. [Snippet Template](snippetTemplate.md)
 - **Code Quality**: Ensure that your code is well-documented, follows best practices, and is free of errors.
 - **Examples**: Provide examples of how your code can be used in a real-world scenario.
 - **Best Practices**: If you're sharing a best practice, explain why it's important and how it can benefit developers.
 - **Organization**: Place your code snippet or best practice in the appropriate section of the repository.
-- **Testing**: If applicable, include unit tests to demonstrate the functionality of your code.
 - **Documentation**: Update the README file to include your contribution and any relevant information.
 - **License**: Ensure that your code is compatible with the MIT License.
 
