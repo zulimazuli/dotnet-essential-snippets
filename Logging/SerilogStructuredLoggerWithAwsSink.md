@@ -112,7 +112,7 @@ class SomeClass : ISomeClass
 - Use the `LogInformation`, `LogError`, and `LogWarning` methods to log events at different log levels.
 - Use the `LogError` method to log exceptions and include the exception details in the log event.
 
-## Additional Resources
+## Additional Resources & References
 
 - [Serilog Documentation](https://serilog.net/)
 - [Serlilog for ASP.NET Core @ GitHub](https://github.com/serilog/serilog-aspnetcore)

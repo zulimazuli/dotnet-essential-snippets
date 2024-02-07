@@ -12,6 +12,7 @@ This repository is organized into sections, each of which focuses on a specific 
 
 - [Global Exception Handler](#global-exception-handler)
 - [Serilog Structured Logger with AWS Sink](#serilog-structured-logger-with-aws-sink)
+- [MediatR Behaviours - Validation Behaviour with FluentValidation](#mediatr-behaviours---validation-behaviour-with-fluentvalidation)
 - [Contributing](#contributing)
 - [To be added](#to-be-added)
 
@@ -30,6 +31,14 @@ Logging is an essential part of any application. It helps in identifying issues,
 This section provides an example of how to use Serilog with the AWS sink to log structured logs to AWS CloudWatch.
 
 Go to the snippet: [Serilog Structured Logger with AWS Sink](Logging/SerilogStructuredLoggerWithAwsSink.md)
+
+### MediatR Behaviours - Validation Behaviour with FluentValidation
+
+When using CQRS and MediatR, it is a good practice to validate the requests before they are processed by the handlers. This will help in identifying and fixing issues in the application. FluentValidation is a popular library for validating objects in .NET applications. It provides a fluent interface for defining validation rules and supports complex validation scenarios such as conditional validation, cross-property validation, and custom validation logic.
+
+This section provides an example of how to use MediatR with FluentValidation to validate requests before they are processed by the handlers.
+
+Go to the snippet: [MediatR Behaviours - Validation Behaviour with FluentValidation](MediatRBehaviours/ValidationBehaviourWithFluentValidation.md)
 
 ## Contributing
 
