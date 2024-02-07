@@ -73,4 +73,4 @@ We welcome contributions from the community! If you have a best practice, code s
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-The purpose of this license is to allow the use of the code snippets and best practices in this repository in any project, commercial or non-commercial, without any restrictions. The software is provided "as is", without warranty of any kind, express or implied.
+The purpose of this license is to allow the use of the code snippets and best practices in this repository in any project, commercial or non-commercial, without any restrictions. The software is provided "as is", without warranty of any kind, express or implied. Forking, modifying, and redistributing the code is permitted, provided that the original license and copyright notice are included.
