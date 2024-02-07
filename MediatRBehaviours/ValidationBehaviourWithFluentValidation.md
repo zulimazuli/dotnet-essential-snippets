@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of the MeediatR Validation Behaviour is to validate the requests before they are processed by the handlers. This is a good practice to validate the requests before processing them. This will help in identifying and fixing issues in the application.
+The purpose of the MediatR Validation Behaviour is to validate the requests before they are processed by the handlers. This is a good practice to validate the requests before processing them. This will help in identifying and fixing issues in the application.
 
 MediatR provides a pipeline behaviour mechanism that allows you to intercept requests and responses as they pass through the pipeline. This can be used to add cross-cutting concerns such as validation, logging, and exception handling to your application.
 
