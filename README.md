@@ -12,6 +12,7 @@ This repository is organized into sections, each of which focuses on a specific 
 
 - [Global Exception Handler](#global-exception-handler)
 - [Serilog Structured Logger with AWS Sink](#serilog-structured-logger-with-aws-sink)
+- [MediatR Behaviours - Validation Behaviour with FluentValidation](#mediatr-behaviours---validation-behaviour-with-fluentvalidation)
 - [Contributing](#contributing)
 - [To be added](#to-be-added)
 
@@ -31,15 +32,23 @@ This section provides an example of how to use Serilog with the AWS sink to log 
 
 Go to the snippet: [Serilog Structured Logger with AWS Sink](Logging/SerilogStructuredLoggerWithAwsSink.md)
 
+### MediatR Behaviours - Validation Behaviour with FluentValidation
+
+When using CQRS and MediatR, it is a good practice to validate the requests before they are processed by the handlers. This will help in identifying and fixing issues in the application. FluentValidation is a popular library for validating objects in .NET applications. It provides a fluent interface for defining validation rules and supports complex validation scenarios such as conditional validation, cross-property validation, and custom validation logic.
+
+This section provides an example of how to use MediatR with FluentValidation to validate requests before they are processed by the handlers.
+
+Go to the snippet: [MediatR Behaviours - Validation Behaviour with FluentValidation](MediatRBehaviours/ValidationBehaviourWithFluentValidation.md)
+
 ## Contributing
 
 We welcome contributions from the community! If you have a best practice, code snippet, or design pattern that you'd like to share, please open a pull request. We only ask that you follow these guidelines:
 
+- **Template**: Use the provided template to structure your contribution. [Snippet Template](snippetTemplate.md)
 - **Code Quality**: Ensure that your code is well-documented, follows best practices, and is free of errors.
 - **Examples**: Provide examples of how your code can be used in a real-world scenario.
 - **Best Practices**: If you're sharing a best practice, explain why it's important and how it can benefit developers.
 - **Organization**: Place your code snippet or best practice in the appropriate section of the repository.
-- **Testing**: If applicable, include unit tests to demonstrate the functionality of your code.
 - **Documentation**: Update the README file to include your contribution and any relevant information.
 - **License**: Ensure that your code is compatible with the MIT License.
 

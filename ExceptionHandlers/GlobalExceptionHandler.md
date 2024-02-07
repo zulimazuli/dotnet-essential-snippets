@@ -54,7 +54,7 @@ app.UseExceptionHandler();
 - Use the `ProblemDetails` class to create a consistent error response format.
 - Ensure that the global exception handler is registered in the application's middleware pipeline.
 
-## Additional Resources
+## Additional Resources & References
 
 - [Global Error Handling in ASP.NET Core 8 @ Milan Jovanovic](https://www.milanjovanovic.tech/blog/global-error-handling-in-aspnetcore-8)
 - [ProblemDetails Class @ Microsoft](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.problemdetails?view=aspnetcore-8.0)
