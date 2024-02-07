@@ -4,7 +4,7 @@
 
 Logging Behavior helps in identifying issues, monitoring performance, and tracking user behavior. When using MediatR for CQRS, it is important to log requests and responses to understand the flow of data through the system. This section provides an example of how to use a logging behavior with MediatR to log requests and responses.
 
-The code snippet demonstrates how to create a logging behavior that logs the request and response details for MediatR requests with different log levels: `Information` for handling the request and `Debug` for the request and response details. This separation of log levels allows you to filter and analyze logs based on the level of detail required and makes sure that sensitive data is not logged at the `Information` level.
+The code snippet demonstrates how to create a logging behavior that logs the request and response with different log levels: `Information` and `Debug`. This separation of log levels allows you to filter and analyze logs based on the level of detail required and makes sure that sensitive data is not logged at the `Information` level.
 
 ## Required NuGet packages
 
@@ -33,7 +33,7 @@ public sealed class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRe
 
         var response = await next();
 
-        _logger.Information("Handled request: {Name}", typeof(TRequest).Name);
+        _logger.LogInformation("Handled request: {Name}", typeof(TRequest).Name);
         _logger.LogDebug("Handled {Name} with response: {@Response}", typeof(TRequest).Name, response);
 
         return response;
