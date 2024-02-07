@@ -1,6 +1,6 @@
 # Serilog Structured Logger with AWS Sink
 
-## Introduction
+## Description
 
 This section provides an example of how to use Serilog with the AWS sink to log structured data to CloudWatch. Serilog is a popular logging library for .NET applications, and the AWS sink allows you to send log events to Amazon CloudWatch Logs.
 
