@@ -12,9 +12,10 @@ This repository is organized into sections, each of which focuses on a specific 
 
 - [Global Exception Handler](#global-exception-handler)
 - [Serilog Structured Logger with AWS Sink](#serilog-structured-logger-with-aws-sink)
-- [MediatR Behaviours - Validation Behaviour with FluentValidation](#mediatr-behaviours---validation-behaviour-with-fluentvalidation)
+- [MediatR Behaviors - Logging Behavior](#mediatr-behaviours---logging-behaviour)
+- [MediatR Behaviors - Validation Behavior with FluentValidation](#mediatr-behaviours---validation-behaviour-with-fluentvalidation)
 - [Contributing](#contributing)
-- [To be added](#to-be-added)
+- [Roadmap of Future Topics](#roadmap-of-future-topics)
 
 ## Topics
 
@@ -32,7 +33,15 @@ This section provides an example of how to use Serilog with the AWS sink to log 
 
 Go to the snippet: [Serilog Structured Logger with AWS Sink](Serilog/SerilogStructuredLoggerWithAwsSink.md)
 
-### MediatR Behaviours - Validation Behaviour with FluentValidation
+### MediatR Behaviors - Logging Behavior
+
+Logging Behavior helps in identifying issues, monitoring performance, and tracking user behavior. When using MediatR for CQRS, it is important to log requests and responses to understand the flow of data through the system.
+
+This section provides an example of how to use a logging behavior with MediatR to log requests and responses.
+
+Go to the snippet: [MediatR Behaviors - Logging Behavior](MediatRBehaviours/LoggingBehavior.md)
+
+### MediatR Behaviors - Validation Behavior with FluentValidation
 
 When using CQRS and MediatR, it is a good practice to validate the requests before they are processed by the handlers. This will help in identifying and fixing issues in the application. FluentValidation is a popular library for validating objects in .NET applications. It provides a fluent interface for defining validation rules and supports complex validation scenarios such as conditional validation, cross-property validation, and custom validation logic.
 
@@ -52,7 +61,7 @@ We welcome contributions from the community! If you have a best practice, code s
 - **Documentation**: Update the README file to include your contribution and any relevant information.
 - **License**: Ensure that your code is compatible with the MIT License.
 
-## To be added
+## Roadmap of Future Topics
 
 - Custom Exceptions
 - S3 Bucket Integration

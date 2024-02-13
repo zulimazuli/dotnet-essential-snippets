@@ -1,6 +1,6 @@
 # MediatR Pipeline Behaviour - Validation Behaviour with FluentValidation
 
-## Introduction
+## Description
 
 The purpose of the MeediatR Validation Behaviour is to validate the requests before they are processed by the handlers. This is a good practice to validate the requests before processing them. This will help in identifying and fixing issues in the application.
 
@@ -74,7 +74,7 @@ services.AddMediatR(cfg =>
 #### Command model
 
 ```csharp
-public record CreateUserCommand(Guid Id, string Name) : IRequest<Guid>;
+public record CreateUserCommand(string Username, string Email) : IRequest<User>;
 ```
 
 #### Validator for the Command
@@ -106,7 +106,7 @@ services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 #### Example Usage
 
 ```csharp
-var request = new SampleCommand(Guid.NewGuid(), "Sample");
+var request = new CreateUserCommand("Username1", "username@email.com");
 var response = await _mediator.Send(request);
 ```
 
@@ -115,6 +115,8 @@ var response = await _mediator.Send(request);
 - Always validate the requests before processing them.
 - Use FluentValidation for complex validation scenarios.
 - Use the MediatR pipeline for validation to keep the validation logic separate from the business logic.
+- To handle a validation exceptions in the application, you can use a global exception handler, middleware or filter.
+- If you don't want to throw an exception, you can return a `Result` object from the validation behaviour instead.
 
 ## Additional Resources & References
 
