@@ -31,7 +31,7 @@ Logging is an essential part of any application. It helps in identifying issues,
 
 This section provides an example of how to use Serilog with the AWS sink to log structured logs to AWS CloudWatch.
 
-Go to the snippet: [Serilog Structured Logger with AWS Sink](Logging/SerilogStructuredLoggerWithAwsSink.md)
+Go to the snippet: [Serilog Structured Logger with AWS Sink](Serilog/SerilogStructuredLoggerWithAwsSink.md)
 
 ### MediatR Behaviors - Logging Behavior
 
