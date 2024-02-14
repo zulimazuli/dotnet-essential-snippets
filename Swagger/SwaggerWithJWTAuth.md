@@ -8,13 +8,13 @@ This snippet provides a basic configuration for Swagger with JWT authentication 
 ## Required NuGet packages
 
 - Swashbuckle.AspNetCore
-- Microsoft.AspNetCore.Authentication.JwtBearer
 
 ## Code Snippet
 
 ### Swagger Extensions
 
 This extension class provides methods for adding Swagger to the application and configuring it with JWT authentication.
+This class should be placed in a separate file, e.g. `Swagger/SwaggerExtensions.cs` in the API project.
 
 ```csharp
 public static class SwaggerExtensions
@@ -101,7 +101,7 @@ public static class SwaggerExtensions
                 Name = "Authorization",
                 Type = SecuritySchemeType.Http,
                 BearerFormat = "JWT",
-                Scheme = JwtBearerDefaults.AuthenticationScheme
+                Scheme = "Bearer"
             });
 
         return options;
@@ -130,6 +130,7 @@ app.UseSwaggerWithUi();
 ### AuthorizationOperationFilter
 
 The class `AuthorizationOperationFilter` applies a filter to the Swagger operations to include security information if the operation does not have the AllowAnonymousAttribute.
+Could be placed either in the `Filters` folder or in the `Swagger` folder, depending on the project structure.
 
 ```csharp
 internal sealed class AuthorizationOperationFilter : IOperationFilter
