@@ -12,8 +12,9 @@ This repository is organized into sections, each of which focuses on a specific 
 
 - [Global Exception Handler](#global-exception-handler)
 - [Serilog Structured Logger with AWS Sink](#serilog-structured-logger-with-aws-sink)
-- [MediatR Behaviors - Logging Behavior](#mediatr-behaviours---logging-behaviour)
-- [MediatR Behaviors - Validation Behavior with FluentValidation](#mediatr-behaviours---validation-behaviour-with-fluentvalidation)
+- [MediatR Behaviors - Logging Behavior](#mediatr-behaviors---logging-behavior)
+- [MediatR Behaviors - Validation Behavior with FluentValidation](#mediatr-behaviors---validation-behavior-with-fluentvalidation)
+- [Swagger with JWT Authentication](#swagger-with-jwt-authentication)
 - [Contributing](#contributing)
 - [Roadmap of Future Topics](#roadmap-of-future-topics)
 
@@ -48,6 +49,14 @@ When using CQRS and MediatR, it is a good practice to validate the requests befo
 This section provides an example of how to use MediatR with FluentValidation to validate requests before they are processed by the handlers.
 
 Go to the snippet: [MediatR Behaviours - Validation Behaviour with FluentValidation](MediatRBehaviours/ValidationBehaviourWithFluentValidation.md)
+
+### Swagger with JWT Authentication
+
+Swagger is a popular tool for documenting APIs. It provides a user-friendly interface for testing and exploring the API endpoints.
+
+This section provides a basic configuration for Swagger with JWT authentication.
+
+Go to the snippet: [Swagger with JWT Authentication](Swagger/SwaggerWithJWTAuth.md)
 
 ## Contributing
 
